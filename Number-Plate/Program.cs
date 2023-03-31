@@ -28,13 +28,7 @@ class Program
             finalString = finalString.Insert(position, "-");
             position += (number+1);
         }
-        //int position = finalString.Length - number;
-        // while (position > 0)
-        // {
-        //    finalString = finalString.Insert(position, "-");
-        //    position -= number;
-        // }
-
+        
         return finalString.ToString();
     }
 
